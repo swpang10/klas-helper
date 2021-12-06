@@ -1,0 +1,57 @@
+# 🎠 KLAS 帮手
+
+[英文](https://github.com/nbsp1221/klas-helper) | [英文](https://github.com/nbsp1221/klas-helper/blob/master/README-EN.md)
+
+光云大学KLAS网站新增便利功能。因为它作为 Tampermonkey 扩展工作，所以它只能在支持它的 Web 浏览器中使用。
+
+> 以下所有说明均基于 Chrome 浏览器。
+
+＃＃ 贡献
+
+请参考[此处]（https://github.com/nbsp1221/klas-helper/blob/master/CONTRIBUTING.md）。
+
+＃＃ 通知
+
+请注意，“KLAS Helper”是为个人使用而创建的程序，不具有公信力。如果您能将其用作参考，我们将不胜感激。 'KLAS Helper'的制作者对因非法使用而造成的任何不利不承担任何责任。
+
+### 权限指南
+
+当出现用户脚本跨域资源访问警告窗口时，必须点击**Always allow domain**按钮才能正常使用。如果拒绝，则只能使用基本功能，权限请求功能的使用受到限制。
+
+* 访问外部网站的权限
+  - 在获取在线讲座视频信息的过程中需要访问域`kwcommons.kw.ac.kr`。
+
+＃＃ 功能
+
+### 基本功能
+
+* 改进教学大纲查询不方便的部分（验证码、在新窗口打开等）
+* 自动计算每学期的专业和非专业成绩并可视化图表
+* 查询上一学期的排名信息
+* 观看连续讲座时移除 2 分钟冷却时间
+* 隐藏 100% 的讲座
+* 显示未查看的讲座和未提交的列表
+
+###权限请求函数
+
+* 下载在线讲座视频
+
+＃＃ 安装
+
+1. 前往 [Chrome 网上应用店](https://chrome.google.com/webstore/search/tampermonkey) 并安装 Tampermonkey 扩展。
+2. 访问链接 https://openuserjs.org/scripts/nbsp1221/KLAS_Helper 后，单击安装按钮。
+3. 在新的 Tampermonkey 窗口中继续安装。
+4. 安装完成后，该功能会自动应用，因此您可以立即访问KLAS站点并使用它。
+
+＃＃ 更新
+
+默认情况下，更新是自动执行的，因此无需手动执行。
+
+1. 单击右上角的 Tampermonkey 图标。
+2. 单击检查用户脚本更新按钮继续更新。
+
+＃＃ 释放
+
+1. 首先，访问KLAS站点。
+2. 单击右上角的 Tampermonkey 图标。
+3. 您可以通过按下 Activate KLAS Helper 按钮重复释放和应用。
